@@ -1,5 +1,6 @@
-module.exports = {
-  darkMode: 'class',
+/** @type {import('tailwindcss').Config} */
+export default {
+  darkMode: "class",
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     fontFamily: {
@@ -10,9 +11,9 @@ module.exports = {
         "3xl": "0px 35px 35px rgba(0, 0, 0, 0.45)",
       },
       colors: {
-        "correct": "#20AA57",
-        "exist": "#E5B22D",
-        "wrong": "#989898"
+        correct: "#20AA57",
+        exist: "#E5B22D",
+        wrong: "#989898",
       },
       width: {
         128: "35rem",
@@ -21,14 +22,14 @@ module.exports = {
         128: "35rem",
       },
       transitionDelay: {
-        '0': '0ms',
-        '100': '100ms',
-        '200': '200ms',
-        '300': '300ms',
-        '400': '400ms',
+        0: "0ms",
+        100: "100ms",
+        200: "200ms",
+        300: "300ms",
+        400: "400ms",
       },
       screens: {
-        'sm': '500px',
+        sm: "500px",
       },
     },
   },

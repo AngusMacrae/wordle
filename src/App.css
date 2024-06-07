@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .modal::-webkit-scrollbar {
   width: 5px;
 }
@@ -21,19 +20,19 @@
   background: rgba(165, 165, 165, 0.75);
 }
 
-
 .app {
   text-align: center;
   display: grid;
   justify-items: center;
   min-height: 100vh;
-  padding: 0; margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 
 @media (prefers-reduced-motion: no-preference) {
